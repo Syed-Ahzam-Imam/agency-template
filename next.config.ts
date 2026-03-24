@@ -1,10 +1,6 @@
-import type { NextConfig } from 'next'
-
-const nextConfig: NextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  webpack(config) {
+const nextConfig = {
+  outputFileTracingRoot: process.cwd(),
+  webpack(config: any) {
     config.module.rules.push({
       test: /\.svg$/,
       use: [
