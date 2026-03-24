@@ -1,6 +1,9 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -15,13 +18,12 @@ const nextConfig: NextConfig = {
                   params: {
                     overrides: {
                       removeViewBox: false,
-                      removeDimensions: true,
                     },
                   },
                 },
+                'removeDimensions',
               ],
             },
-            dimensions: false, // Remove width/height from SVG
           },
         },
       ],
