@@ -69,9 +69,9 @@ const FooterContactInfo: FC = () => {
     <Box sx={{ mb: { xs: 4, md: 0 } }}>
       <FooterSectionTitle title='Contact Info' />
       <ContactInfoItem
-        value='info@example.com'
+        value='hello@nexoradigitalstudio.com'
         label='Response within 24hrs'
-        link='mailto:info@example.com'
+        link='mailto:hello@nexoradigitalstudio.com'
         icon={
           <Box
             component={EmailIcon}

@@ -51,7 +51,7 @@ export default function RootLayout({
               <AppBar />
               {children}
               <Footer />
-              <FooterGithubBanner />
+              {/* <FooterGithubBanner /> */}
             </MuiThemeProvider>
           </AppContextProvider>
         </AppRouterCacheProvider>

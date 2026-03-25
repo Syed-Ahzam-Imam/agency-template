@@ -179,7 +179,7 @@ const HomeContact = () => {
                     },
                   })}
                   component='a'
-                  href='mailto:hello@example.com'
+                  href='mailto:hello@nexoradigitalstudio.com'
                 >
                   <>
                     <Box
@@ -194,7 +194,7 @@ const HomeContact = () => {
                         sx={{ mr: 1, width: 26, height: 26 }}
                       />
                       <Typography sx={{ mb: 0 }} variant='h5'>
-                        hello@example.com
+                        hello@nexoradigitalstudio.com
                       </Typography>
                     </Box>
                     <Typography

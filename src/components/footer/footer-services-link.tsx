@@ -21,7 +21,7 @@ const FooterServicesLink = () => {
           key={String(index)}
           component={RouterLink}
           href={`/#${item.slug}`}
-          target='_blank'
+          // target='_blank'
           sx={{
             display: 'flex',
             alignItems: 'center',
